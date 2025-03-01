@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
 
-    padding: 8em 0;
+    padding: 7em 0;
 }
 
 .infoPart {
@@ -102,32 +102,42 @@ body {
 form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding-bottom: 1.5rem;
 }
 
-form .title{
+form .title {
     font-weight: bold;
     font-size: 1.5em;
 
     margin: 1em 8em 1em 3em;
 }
 
-.line{
-    display:flex;
+.line {
+    display: flex;
     margin: 1em 0;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
     margin-left: 1em;
 }
 
-.element{
-    display:flex;
+.element {
+    display: flex;
     flex-direction: column;
     margin-left: 3rem;
 }
 
-input{
+input {
     min-width: 20vw;
+    padding: 0.8em;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
