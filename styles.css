@@ -1,0 +1,133 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.leftContainer {
+    background-image: url('KA8702024.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-width: 35vw;
+
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+.logoHolder {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2em 5em;
+    margin-top: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.credit {
+    color: white;
+    align-self: center;
+    margin-bottom: 1rem;
+
+}
+
+.credit a {
+    color: white
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding: 8em 0;
+}
+
+.infoPart {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-left: 3em;
+    margin-right: 8em;
+}
+
+.info2 {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.signIn {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.signIn a {
+    text-decoration: none;
+    color: #a43c04;
+}
+
+.createAcct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 35%;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #a43c04;
+    font-size: 1.2em;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.signIn a:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+form .title{
+    font-weight: bold;
+    font-size: 1.5em;
+
+    margin: 1em 8em 1em 3em;
+}
+
+.line{
+    display:flex;
+    margin: 1em 0;
+    justify-content:left;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.element{
+    display:flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+input{
+    min-width: 20vw;
+}
